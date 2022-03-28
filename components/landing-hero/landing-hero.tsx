@@ -2,10 +2,10 @@ import React from "react";
 import { useGlobalState } from "../../context";
 import { Button } from "../button";
 import { RestoreDropForm } from "./restore-drop-form";
-import Icon1 from "./images/icon1.svg";
-import Icon2 from "./images/icon2.svg";
-import Icon3 from "./images/icon3.svg";
-import Icon4 from "./images/icon4.svg";
+import Icon1svg from "./svg-selector/icon1";
+import Icon2svg from "./svg-selector/icon2";
+import Icon3svg from "./svg-selector/icon3";
+import Icon4svg from "./svg-selector/icon4";
 
 export const LandingHero = () => {
   const { createAccount } = useGlobalState();
@@ -50,7 +50,7 @@ export const LandingHero = () => {
             <div>
               <span className="flex items-center justify-center h-12 w-12 rounded-md bg-gray-900 bg-opacity-10">
                 <div className="h-6 w-6 text-gray-700">
-                  <Icon1 />
+                  <Icon1svg />
                 </div>
               </span>
             </div>
@@ -62,8 +62,8 @@ export const LandingHero = () => {
           <div>
             <div>
               <span className="flex items-center justify-center h-12 w-12 rounded-md bg-gray-900 bg-opacity-10">
-              <div className="h-6 w-6 text-gray-700">
-                  <Icon2 />
+                <div className="h-6 w-6 text-gray-700">
+                  <Icon2svg />
                 </div>
               </span>
             </div>
@@ -75,8 +75,8 @@ export const LandingHero = () => {
           <div>
             <div>
               <span className="flex items-center justify-center h-12 w-12 rounded-md bg-gray-900 bg-opacity-10">
-              <div className="h-6 w-6 text-gray-700">
-                  <Icon3 />
+                <div className="h-6 w-6 text-gray-700">
+                  <Icon3svg />
                 </div>
               </span>
             </div>
@@ -88,8 +88,8 @@ export const LandingHero = () => {
           <div>
             <div>
               <span className="flex items-center justify-center h-12 w-12 rounded-md bg-gray-900 bg-opacity-10">
-              <div className="h-6 w-6 text-gray-700">
-                  <Icon4 />
+                <div className="h-6 w-6 text-gray-700">
+                  <Icon4svg />
                 </div>
               </span>
             </div>
