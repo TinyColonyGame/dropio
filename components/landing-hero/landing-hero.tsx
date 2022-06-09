@@ -2,6 +2,7 @@ import React from "react";
 import { useGlobalState } from "../../context";
 import { Button } from "../button";
 import { RestoreDropForm } from "./restore-drop-form";
+import HowItWorks from "./how-it-works";
 
 export const LandingHero = () => {
   const { createAccount } = useGlobalState();
@@ -37,6 +38,9 @@ export const LandingHero = () => {
           </div>
         </div>
       </div>
+      <div>
+        <HowItWorks />
+      </div>
     </>
   );
-};
+}
